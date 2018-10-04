@@ -10,6 +10,14 @@
 			"name": "Launch Chrome without localhost",
 			"webRoot": "${workspaceFolder}",
 			"file": "${workspaceFolder}/index.html"
+		},
+
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Launch Chrome with localhost",
+			"url": "http://localhost:8001",
+			"webRoot": "${workspaceFolder}"
 		}
 	]
 }
